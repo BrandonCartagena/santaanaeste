@@ -1,1 +1,16 @@
 // app global css
+
+html,
+body,
+#q-app {
+	min-height: 100%;
+}
+
+body {
+	background: #eef1f4;
+	color: #1f2937;
+}
+
+#q-app {
+	min-height: 100vh;
+}
