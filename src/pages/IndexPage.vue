@@ -9,7 +9,7 @@
         :posts="newsStore.posts"
         :loading="newsStore.loading"
         :error="newsStore.error"
-        @refresh="newsStore.fetchNews"
+        @refresh="newsStore.fetchNews({ force: true })"
       />
     </div>
   </q-page>

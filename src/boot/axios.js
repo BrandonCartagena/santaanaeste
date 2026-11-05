@@ -2,17 +2,18 @@ import { boot } from 'quasar/wrappers';
 import axios from 'axios';
 import { Notify } from 'quasar';
 
-// Detecta el entorno: en dev usamos el proxy de Quasar/Netlify Dev,
-// en producción las funciones viven en /.netlify/functions
-const isDev = import.meta.env.DEV;
-const BASE_URL = isDev
-  ? '/.netlify/functions'          // netlify dev hace proxy local
-  : '/.netlify/functions';         // producción en Netlify
+const CLOUD_WORKER_URL = 'https://meta-feed-proxy.brandonsteven2017.workers.dev';
 
-// Instancia principal
+const workerUrl =
+  import.meta.env.VITE_NEWS_API_URL ||
+  import.meta.env.VITE_WORKER_URL ||
+  CLOUD_WORKER_URL;
+
+const BASE_URL = workerUrl.replace(/\/$/, '');
+
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 15000,
+  timeout: 20000,
   headers: {
     'Content-Type': 'application/json',
     Accept: 'application/json',
