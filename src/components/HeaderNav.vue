@@ -19,3 +19,41 @@ defineOptions({
   name: 'HeaderNav',
 })
 </script>
+<style lang="css">
+
+/* HeaderNav.vue */
+
+.app-header {
+  background: #3F6077;
+  color: #FFFFFF;
+
+  box-shadow:
+    0 3px 12px rgba(32, 57, 77, 0.16);
+  
+}
+
+.app-toolbar {
+  min-height: clamp ;
+  padding: 0 28px;
+}
+
+.app-brand {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.app-nav-link {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  transition: opacity 0.2s ease;
+}
+
+.app-nav-link:hover {
+  opacity: 0.75;
+}
+
+</style>

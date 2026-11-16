@@ -1,8 +1,8 @@
 <template>
   <q-page class="q-pa-md q-pa-lg-md">
     <div class="container">
-      <h1 class="text-h4 text-weight-bold q-mb-sm">Portal de Transparencia</h1>
-      <p class="text-body1 text-grey-8 q-mb-lg">
+      <h1 class="text-h4 text-weight-bold q-mb-sm text-white">Portal de Transparencia</h1>
+      <p class="text-body1 text-grey-4 q-mb-lg">
         Accede a informes de gestion, presupuesto municipal y rendicion de cuentas.
       </p>
 
@@ -11,7 +11,7 @@
           <q-card bordered class="fit">
             <q-card-section>
               <div class="text-subtitle1 text-weight-bold">{{ item.title }}</div>
-              <div class="text-body2 text-grey-7 q-mt-sm">{{ item.description }}</div>
+              <div class="text-body2 text-grey-5 q-mt-sm">{{ item.description }}</div>
             </q-card-section>
 
             <q-separator />

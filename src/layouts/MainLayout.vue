@@ -1,3 +1,4 @@
+
 <template>
   <q-layout
     view="hHh lpR fFf"
@@ -26,6 +27,7 @@ defineOptions({
 
 const scrollProgress = ref(0)
 const targetProgress = ref(0)
+
 let animationFrameId = 0
 
 function clamp(value, min, max) {
@@ -34,8 +36,17 @@ function clamp(value, min, max) {
 
 function updateTargetProgress() {
   const doc = document.documentElement
-  const maxScroll = Math.max(doc.scrollHeight - window.innerHeight, 1)
-  targetProgress.value = clamp(window.scrollY / maxScroll, 0, 1)
+
+  const maxScroll = Math.max(
+    doc.scrollHeight - window.innerHeight,
+    1
+  )
+
+  targetProgress.value = clamp(
+    window.scrollY / maxScroll,
+    0,
+    1
+  )
 }
 
 function animateBackground() {
@@ -48,14 +59,19 @@ function animateBackground() {
   }
 
   scrollProgress.value += delta * 0.08
-  animationFrameId = window.requestAnimationFrame(animateBackground)
+
+  animationFrameId = window.requestAnimationFrame(
+    animateBackground
+  )
 }
 
 function handleScroll() {
   updateTargetProgress()
 
   if (animationFrameId === 0) {
-    animationFrameId = window.requestAnimationFrame(animateBackground)
+    animationFrameId = window.requestAnimationFrame(
+      animateBackground
+    )
   }
 }
 
@@ -63,16 +79,21 @@ const layoutStyle = computed(() => {
   const progress = scrollProgress.value
 
   return {
-    '--page-bg-opacity': `${0.06 + progress * 0.2}`,
-    '--page-bg-tint': `${210 + progress * 26}`,
-    '--page-bg-glow': `${0.08 + progress * 0.28}`,
+    '--warm-opacity': 0.10 + progress * 0.18,
+    '--glow-position': `${20 + progress * 45}%`,
   }
 })
 
 onMounted(() => {
   handleScroll()
-  window.addEventListener('scroll', handleScroll, { passive: true })
-  window.addEventListener('resize', handleScroll, { passive: true })
+
+  window.addEventListener('scroll', handleScroll, {
+    passive: true,
+  })
+
+  window.addEventListener('resize', handleScroll, {
+    passive: true,
+  })
 })
 
 onBeforeUnmount(() => {
@@ -89,22 +110,26 @@ onBeforeUnmount(() => {
 .main-layout {
   position: relative;
   min-height: 100vh;
+
   background:
     radial-gradient(
-      circle at top,
-      hsl(var(--page-bg-tint, 210) 34% 97% / 0.96),
-      transparent 42%
+      ellipse at 50% var(--glow-position, 20%),
+      rgba(243, 198, 158, var(--warm-opacity, 0.10)),
+      transparent 55%
     ),
     linear-gradient(
       180deg,
-      #eff1f4 0%,
-      #eef0f3 26%,
-      hsl(var(--page-bg-tint, 210) 55% 95% / calc(0.65 + var(--page-bg-opacity, 0.06))) 58%,
-      hsl(calc(var(--page-bg-tint, 210) + 18) 58% 89% / calc(0.5 + var(--page-bg-glow, 0.08))) 100%
+      #8495A1 0%,
+      #A5A4A0 28%,
+      #C5A79C 55%,
+      #E7B49A 80%,
+      #F3C69E 100%
     );
+
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+
   overflow-x: hidden;
 }
 </style>

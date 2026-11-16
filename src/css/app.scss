@@ -1,16 +1,51 @@
-// app global css
+/* src/css/app.scss */
+
+/* Paleta institucional */
+:root {
+  /* Degradado: Azul layout -> Azul oscuro -> Tono tarjeta */
+  --page-bg-gradient: linear-gradient(
+    180deg,
+    #365B7D 0%,    /* Azul secundario (similar al header) */
+    #17365D 45%,   /* Azul primario (más oscuro) */
+    #1A2536 100%   /* Tono muy oscuro (similar al fondo de tus tarjetas) */
+  );
+
+  --institutional-primary: #17365D;
+  --institutional-secondary: #365B7D;
+  --institutional-accent: #527A9E;
+
+  --surface-color: #FFFFFF; /* Si tus tarjetas son blancas, mantenlo */
+  
+  /* CAMBIO NECESARIO: Textos claros para fondo oscuro */
+  --text-primary: #F8FAFC; 
+  --text-secondary: #CBD5E1; 
+}
 
 html,
 body,
 #q-app {
-	min-height: 100%;
-}
-
-body {
-	background: #eef1f4;
-	color: #1f2937;
+  min-height: 100%;
+  font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #q-app {
-	min-height: 100vh;
+  min-height: 100vh;
+}
+
+body,
+#q-app,
+.q-layout,
+.q-page-container {
+  background: var(--page-bg-gradient);
+  background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+  min-height: 100vh;
+}
+
+.q-page {
+  background: transparent !important;
+}
+
+h1, h2, h3, h4,
+.feed-title {
+  font-family: 'Clash Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

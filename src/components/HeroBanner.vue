@@ -93,6 +93,7 @@ const items = [
   isolation: isolate;
   height: clamp(560px, 85vh, 900px);  
   overflow: hidden;  
+  border-radius: 0 0 clamp(16px, 3vw, 32px) clamp(16px, 3vw, 32px);
 }
 
 .hero-carousel {
