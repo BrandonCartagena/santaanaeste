@@ -1,0 +1,79 @@
+[
+    {
+        "title":"Medio Ambiente",
+        "description":"servicios ambientales municipales gestionados por la Unidad Ambiental Municipal, la Unidad de Zonas Verdes y los equipos de desechos sólidos y saneamiento de la alcaldía",
+        "cta":"Ver Requisitos",
+        "icon":"nature_people",
+        "hasArrow": false,
+        "dialog": false,
+        "servicios": [
+            {
+                "titulo":"Autorización de poda o tala",
+                "descripcion":"Permiso municipal para poda o tala",
+                "icon":"content_cut",
+                "requisitos":[
+                    "Completar el formulario",
+                    "Estar solvente con las tasas municipales",
+                    "Anexar copia del DUI del propietario del inmueble",
+                    "Presentar fotografías impresas del árbol o árboles a intervenir",
+                    "Anexar copia de la escritura del inmueble donde se encuentra el árbol",
+                    "Se realizará una inspección técnica para verificar la información proporcionada",
+                    "Una vez aprobada la solicitud, se notificará para realizar el pago correspondiente"
+                ]
+            },
+            {
+                "titulo":"Servicio de tala o poda",
+                "descripcion":"La municipalidad brindará únicamente el servicio de poda o tala autorizado",
+                "icon":"carpenter",
+                "requisitos":[
+                    "Completar el formulario",
+                    "Anexar copia del DUI del solicitante",
+                    "Presentar fotografías del árbol a intervenir",
+                    "La municipalidad realizará una inspección técnica para validar la información proporcionada",
+                    "Una vez aprobada la solicitud, deberá cancelar la tasa correspondiente al servicio",
+                    "Posteriormente se programará la fecha de la intervención",
+                    "El retiro y disposición del material generado será responsabilidad del solicitante"
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Servicios Públicos y Mantenimiento Urbano",
+        "description":"Canalización de solicitudes, quejas y reportes relacionados al uso y mantenimiento de servicios Públicos y Urbanos",
+        "cta":"Ver Requisitos",
+        "icon":"groups",
+        "hasArrow": false,
+        "dialog": false,
+        "servicios": [
+            {
+                "titulo":"Alumbrado Público y Red Vial",
+                "descripcion":"Recepción de reportes sobre luminarias dañadas, calles en mal estado, baches, tragantes obstruidos o aceras deterioradas",
+                "icon":"light",
+                "requisitos":[]
+            },
+            {
+                "titulo":"Aseo Urbano y Recolección",
+                "descripcion":"Canalización de quejas o solicitudes relacionadas con rutas de camiones recolectores, promontorios de basura en la vía pública y limpieza de espacios comunes",
+                "icon":"sym_person_apron",
+                "requisitos":[]
+            }
+        ]
+    },
+    {
+        "title":"Gestión Social y Seguimiento",
+        "description":" coordinación de acciones, actores y recursos para atender necesidades comunitarias, prevenir impactos sociales y mejorar el bienestar colectivo",
+        "cta":"Ver Requisitos",
+        "icon":"help_center",
+        "hasArrow":false,
+        "dialog":false,
+        "servicios":[
+            {
+                "titulo":"Desarrollo Social / Comunidades",
+                "descripcion":" Canalización de peticiones de directivas comunales (ADESCO), solicitudes de ayuda social, programas de becas, talleres vocacionales o jornadas médicas",
+                "icon":"school",
+                "requisitos":[]
+
+            }
+        ]
+    }
+]

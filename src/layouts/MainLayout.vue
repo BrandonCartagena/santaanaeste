@@ -1,7 +1,7 @@
 
 <template>
   <q-layout
-    view="hHh lpR fFf"
+    view="hHh lpR fff"
     class="main-layout"
     :style="layoutStyle"
   >

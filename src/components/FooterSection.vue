@@ -1,5 +1,5 @@
 <template>
-  <q-footer class="bg-grey-10 text-grey-2" style="position: static">
+  <q-footer class="bg-grey-10 text-grey-2" >
     <div class="q-pa-lg">
       <!-- Bloque principal -->
       <div class="row q-col-gutter-lg q-col-gutter-y-xl">
@@ -39,7 +39,7 @@
               </q-item-section>
               <q-item-section>
                 <a href="mailto:atencion@alcaldia.gob.sv" class="footer-link">
-                  atencion@alcaldia.gob.sv
+                  uaip.sae@gmail.com
                 </a>
               </q-item-section>
             </q-item>
@@ -48,8 +48,8 @@
                 <q-icon name="phone" size="18px" color="primary" />
               </q-item-section>
               <q-item-section>
-                <a href="tel:+50325000000" class="footer-link">
-                  +503 2500-0000
+                <a href="tel:+50324457200" class="footer-link">
+                  +503 2445 7200
                 </a>
               </q-item-section>
             </q-item>

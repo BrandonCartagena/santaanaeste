@@ -43,13 +43,13 @@
                 no-caps
                 label="Comenzar"
                 icon-right="arrow_forward"
-                to="/servicios"
+                @click="onComenzarClick"
               />
             </div>
           </div>
 
-          <!-- 🟢 Grid (u otro contenido) entra por slot -->
-          <div class="col-12 col-md-7">
+          <!-- 🟢 Grid (u otro contenido) entra por slot. Agregamos el ID para el scroll -->
+          <div class="col-12 col-md-7" id="servicios-rapidos-target">
             <slot />
           </div>
         </div>
@@ -85,6 +85,18 @@ const items = [
     image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80',
   },
 ]
+
+// Función para manejar el clic en "Comenzar"
+const onComenzarClick = () => {
+  // 1. Scroll suave hacia la sección de servicios (útil en móviles)
+  const target = document.getElementById('servicios-rapidos-target')
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  }
+  
+  // 2. Disparar un evento global para que el Grid aplique la animación
+  window.dispatchEvent(new CustomEvent('activar-halo-servicios'))
+}
 </script>
 
 <style scoped>

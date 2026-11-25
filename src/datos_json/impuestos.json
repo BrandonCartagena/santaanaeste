@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Cuentas Corrientes",
+        "description": "Área encargada de llevar el estado de cuenta, emisión de mandamientos de pago, cobros de tasas mensuales y emisión de solvencias municipales",
+        "cta": "Ver Requisitos",
+        "icon": "inventory_2",
+        "hasArrow": false,
+        "dialog": false,
+        "servicios": [
+            {
+                "titulo":"Pago de Impuestos Municipales",
+                "descripcion": "Cancelación de impuestos correspondientes al inmueble",
+                "icon":"payments",
+                "requisitos":["Recibo anterior o número de cuenta"]
+            },
+            {
+                "titulo":"Solvencia Municipal",
+                "descripcion":"Emisión de solvencia municipal para personas que se encuentren al día con sus impuestos",
+                "icon":"description",
+                "requisitos":[
+                    "DUI del solicitante",
+                    "En caso de no ser el propietario del inmueble, deberá presentar carta de autorización simple firmada por el titular o documento que lo faculte para solicitar y retirar la solvencia",
+                    "Pago correspondiente según distrito"
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Catastro Inmueble",
+        "description":"Área encargada de registrar las propiedades, determinar su valor o extensión para el cálculo de tasas municipales y gestionar permisos o calificaciones a nivel local",
+        "cta":"Ver Requisitos",
+        "icon":"real_estate_agent",
+        "hasArrow":false,
+        "dialog":false,
+        "servicios":[
+            {
+                "titulo":"Permiso de Construcción",
+                "descripcion":"Autorización para construcción, remodelación o ampliación",
+                "icon":"approval",
+                "requisitos":[
+                    "Datos registrales y llenado del formulario",
+                    "El inmueble debe estar solvente con los impuestos municipales",
+                    "Pago municipal que se indicará segun fecha de retiro en ventanilla"
+                ]
+            },
+            {
+                "titulo":"Registro de inmueble",
+                "descripcion":"Inscripción municipal de propiedades urbanas y rurales",
+                "icon":"home_work",
+                "requisitos":[
+                    "Datos registrales y llenado del formulario",
+                    "Pago de tasa municipal"
+                ]
+            },
+            {
+                "titulo":"Cambio de propietario de inmueble",
+                "descripcion":"Actualización de propietarios de inmuebles registrados",
+                "icon":"sym_location_home",
+                "requisitos":[
+                    "DUI del solicitante",
+                    "Datos registrales y llenado del Formulario",
+                    "Pago de tasa municipal correspondiente"
+                ]
+            },
+            {
+                "titulo":"Permiso de ruptura de calle",
+                "descripcion":"Autorización para ruptura de calles",
+                "icon":"sym_destruction",
+                "requisitos":[
+                    "DUI del solicitante",
+                    "Datos registrales",
+                    "Pago de tasa municipal"
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Catastro Empresa",
+        "description":"Administra el registro de negocios, comercios e industrias del municipio para determinar las tasas de impuestos municipales correspondientes a su actividad económica",
+        "cta":"Ver Requisitos",
+        "icon":"add_business",
+        "hasArrow":false,
+        "dialog":false,
+        "servicios":[
+            {
+                "titulo":"Inscripción para negocio",
+                "descripcion":"Solicitud de autorización para apertura y funcionamiento de negocios",
+                "icon":"storefront",
+                "requisitos":[
+                    "DUI del solicitante",
+                    "Datos registrales y llenado del formulario",
+                    "Pago de tasa municipal"
+                ]
+            },
+            {
+                "titulo":"Renovación de licencia",
+                "descripcion":"Renovación anual de permisos comerciales registrados en la municipalidad",
+                "icon":"sym_id_card_2",
+                "requisitos":[
+                    "DUI del solicitante",
+                    "Datos registrales Y llenado del formulario",
+                    "Pago de tasa municipal"
+                ]
+            }
+        ]
+    }
+]

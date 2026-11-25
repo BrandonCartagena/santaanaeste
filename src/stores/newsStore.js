@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { api } from '../boot/axios'
 
-const NEWS_LIMIT = 6
+const NEWS_LIMIT = 8
 const CACHE_TTL_MS = 5 * 60 * 1000
 
 const HTML_PERMALINK_PATTERNS = [

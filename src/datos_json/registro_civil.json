@@ -1,0 +1,258 @@
+[
+    {
+    "title": "Registro Familiar",
+    "description": "Inscripción y certificación de hechos y actos jurídicos de las personas naturales (trámites civiles y registrales)",
+    "cta": "Ver Requisitos",
+    "icon": "sym_o_family_group",
+    "hasArrow": false,
+    "dialog": false,
+    "servicios": [
+      {
+        "titulo" : "Partida de Nacimiento",
+        "descripcion" : "Emisión certificada de partida de nacimiento",
+        "icon": "sym_child_friendly",
+        "requisitos": ["Datos Personales de la persona registrada como fecha de nacimiento, nombre, etc."]
+      },
+      {
+        "titulo" : "Carnet de Minoridad",
+        "descripcion" : "Emisión y reposición de carnet para menores de edad",
+        "icon" : "sym_badge",
+        "requisitos" : [
+          "DUI del responsable del menor",
+          "El beneficiario debe tener entre 10 y 17 años",
+          "Partida de nacimiento reciente",
+          "El menor debe de presentarse al área con un resposable mayor de edad",
+          "realizar el pago correspondiente según su distrito"
+        ]
+      },
+      {
+        "titulo" : "Asentamientos",
+        "descripcion" : "Registro y actualización de asentamientos familiares",
+        "icon" : "home",
+        "requisitos" : [
+          {
+            "titulo": "Asentamiento de Recíen Nacido",
+            "requisitos":[
+              "Constancia hospitalaria de nacimiento",
+              "DUI de padre o madre"
+            ]
+          },
+          {
+            "titulo" : "Asentamiento por Fallecimiento",
+            "requisitos":[
+              "Certificado de defunción",
+              "DUI del declarante",
+              "Documentación de identidad del fallecido"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo" : "Matrimonio",
+        "descripcion" : "Inscripción y celebración de matrimonio civil",
+        "icon" : "sym_partner_heart",
+        "requisitos":[
+          "DUI de los contrayentes original y copia",
+          "Partida de nacimiento de ambos contrayentes reciente y original",
+          "DUI de cada testigo original y copia, debe saber firmar y no ser familiares",
+          "Si en caso es Divorciado/a debe de traer la partida de nacimiento con marginación, Partida de divorcio y Dui con estado familiar de Soltero/a",
+          "Si en caso es Viudo/a debe de traer la partida de defunción del cónyuge, Partida de nacimiento con marginación y DUI con estado familiar de Viudo/a"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cementerio",
+    "description": "Trámites, permisos y servicios del cementerio municipal.",
+    "cta": "Ver Requisitos",
+    "icon": "sym_o_deceased",
+    "hasArrow": false,
+    "dialog": false,
+    "servicios": [
+      {
+        "titulo": "Constancia de enterramiento",
+        "descripcion" : "Certificado que una persona fallecida fue sepultada en los cementerios Municipales de Santa Ana Este",
+        "icon": "description",
+        "requisitos":[
+          "Presentar copia de DUI del solicitante a 150%",
+          "Proporcionar nombre completo de la persona fallecida y fecha de fallecimiento o Enterramiento",
+          "Indicar el cementerio y ubicación aproximada de la sepultura",
+          "Realizar el pago correspondiente según las tasas municipales y completar la solicitud en el Departamento de Cementerios"
+        ]
+      },
+      {
+        "titulo": "Compra de nicho",
+        "descripcion": "Adquisición de un nicho en el Cementerio Municipal",
+        "icon": "sym_range_hood",
+        "requisitos":[
+          "Adjudicación de espacio por encargados de cementerio",
+          "Anexar Copia de DUI vigente ampliada a 150% del titular y beneficiarios",
+          "Llenar el formato de adjudicación de puesto de nicho y llenar la solicitud de compra",
+          "Entregar a oficina Administrativa el formato lleno de compra con firma, sello y ubicación de los nichos para realizarle el siguiente tramite"
+        ]
+      },
+      {
+        "titulo":"Traspaso de título",
+        "descripcion": "Permite transferir la titularidad de un puesto o nicho a otra persona",
+        "icon": "sym_partner_exchange",
+        "requisitos":[
+          "Presentar copia de DUI del solicitante a 150%",
+          "Titulo original y copia",
+          "Escritura pública de cesión a título gratuito de puesto a perpetuidad",
+          "Certificación de partida de defunción del titular (en caso de fallecido)",
+          "Documentos que comprueben parentesco (partida de nacimiento, matrimonio, etc.)",
+          "Autorización firmada por el titular (si está vivo)",
+          "Solvencia de pagos municipales (cementerio)",
+          "Solicitud por escrito dirigida a la municipalidad"
+        ]
+      },
+      {
+        "titulo":"Reposición de título",
+        "descripcion": "Permite solicitar la emisión de un nuevo título cuando el original se ha extraviado, deteriorado o requiere ser reemplazado",
+        "icon": "restart_alt",
+        "requisitos":[
+          "Presentar el DUI del familiar o del propietario y una copia a 150%",
+          "Constancia o registro en base de datos del cementerio (si aplica)"
+        ]
+      },
+      {
+        "titulo":"Compra de nicho sobre fosa existente",
+        "descripcion":"Adquisición de un nicho cuando el solicitante ya dispone de un espacio de fosa",
+        "icon":"sym_range_hood",
+        "requisitos":[
+          "Verificar el espacio de fosa si tiene las medidas correspondientes para la compra",
+          "Tener las refrendas actualizadas del espacio de fosa. (Presentar comprobante)",
+          "Copia de DUI vigente ampliada a 150% del titular y beneficiarios",
+          "Llenar el formato de adjudicación de puesto de nicho y llenar la solicitud de compra",
+          "Entregar a oficina Administrativa el formato de compra con firma, sello y ubicación de los nichos para realizarle el siguiente tramite"
+        ]
+      },
+      {
+        "titulo": "Permiso de enterramiento en fosa",
+        "descripcion":"Este trámite cubre el permiso para un enterramiento individual",
+        "icon":"how_to_reg",
+        "requisitos":[
+          "Presentar DUI del fallecido en Original y copia ampliada a 150%. Si es menor de edad, se debe presentar la partida de nacimiento",
+          "Dui del informante en Original y Copia ampliada al 150%( debe ser un familiar o amigo de la familia)",
+          "Presentar una copia y original del certificado médico",
+          "Completar el formulario de personas fallecidas(Según su distrito). Con documentación del fallecido y del informante",
+          "En el caso de no tener DUI: Si el fallecido nunca obtuvo el DUI, se puede solicitar una certificación de no DUI al Registro Nacional de Personas Naturales (RNPN)"
+        ]
+      },
+      {
+        "titulo":"Permiso de enterramiento en Nicho, Lapida y Jardinera",
+        "descripcion":"Autoriza la inhumación de una persona fallecida",
+        "icon":"sym_approval_delegation",
+        "requisitos":[
+          "Presentar DUI del fallecido en Original y copia ampliada a 150%. Si es menor de edad, se debe presentar la partida de nacimiento",
+          "Dui del informante en Original y Copia ampliada al 150%( debe ser un familiar o amigo de la familia)",
+          "Presentar dos copia del certificado de defunción del médico",
+          "Llenar el formato de registro de personas fallecidas. Con documentación del fallecido y del informante",
+          "En el caso de no tener DUI: Si el fallecido nunca obtuvo el DUI, se puede solicitar una certificación de no DUI al Registro Nacional de Personas Naturales (RNPN)"
+        ]
+      },
+      {
+        "titulo":"Refrenda de 7 años enterramiento en fosa, lapida, jardinera o Nicho",
+        "descripcion":"Permite renovar por siete años el derecho de uso",
+        "icon":"sym_checkbook",
+        "requisitos":[
+         "Presentar título a perpetuidad o formula 1-isam (recibo de comprobante)",
+         "Proporcionar nombre completo del fallecido, fecha de entierro",
+         "Indicar nombre del cementerio y tipo de construcción fosa, nicho, lapida o jardinera" 
+        ]
+      },
+      {
+        "titulo": "Recepción de cuerpos fallecidos en el extranjero",
+        "descripcion":"Requisitos para inscribir defunción de Salvadoreños",
+        "icon":"sym_person_check",
+        "requisitos":[
+          "Certificado de nacimiento original y apostillado (autentica para países no suscrito al convenio de la haya)",
+          "*Diligencia de traducción textual del documento, ante notario salvadoreño (cuando el documento está en otro idioma) art. 24 ley de ejercicio notarial de la jurisdicción voluntaria y otras diligencias",
+          "Partida de nacimiento original del fallecido (No más de tres meses de emisión)",
+          "DUI del fallecido e informante y copia a 150%",
+          "Llenar la solicitud y el formato de personas fallecida y adjudicar el espacio"
+        ]
+      },
+      {
+        "titulo":"Permiso de traslado de cadáver a otro distrito, municipio o departamento",
+        "descripcion":"Requisitos para el transalado del cadáver ",
+        "icon":"transfer_within_a_station",
+        "requisitos":[
+          "Presentar partida de defunción",
+          "Proporcionar datos del fallecido/a",
+          "Anexar copia del dui del fallecido a 150%",
+          "Presentar DUI del solicitante y copia a 150%",
+          "Llenar solicitud y formato de personas fallecida",
+          "Presentar el permiso de traslado de la municipalidad de donde proviene el cadáver (distrito o departamento)",
+          "Presentar permiso sanitario si el traslado es a otro país"
+        ]
+      },
+      {
+        "titulo":"Elaboración de fosa para enterramiento (medida estándar)",
+        "descripcion":"Requisitos para la elaboración de fosas",
+        "icon":"sym_stacks",
+        "requisitos":[
+          "Permiso de enterramiento autorizado por el encargado del cementerio",
+          "Llenar Solicitud y formato de persona fallecida",
+          "Pagar en oficina en atención al contribuyente por la elaboración de fosa",
+          "Indicar la ubicación del puesto o fosa en el cementerio",
+          "Presentar a registro del estado familiar dui original de la persona fallecida del informante y certificado de defunción para tramitar la partida de defunción (todo en original)"
+        ]
+      },
+      {
+        "titulo":"Elaboración de nicho sencillo cemento (medida estándar)",
+        "descripcion":"Requisitos para la elaboración de nicho de cemento",
+        "icon":"sym_fullscreen_portrait",
+        "requisitos":[
+          "Presentar copia de DUI del solicitante",
+          "Presentar copia del título a perpetuidad o documento que compruebe el derecho sobre el espacio en el cementerio",
+          "Permitir la inspección del lugar por parte del personal del cementerio antes de iniciar la construcción",
+          "Presentar solicitud por escrito dirigida al Departamento de Cementerios",
+          "Realizar el pago correspondiente en la municipalidad según la tasa establecida",
+          "Comprometerse a respetar las medidas estándar autorizadas para la construcción del nicho",
+          "Mantener orden y limpieza en el área de trabajo durante la elaboración del nicho"
+        ]
+      },
+      {
+        "titulo":"Elaboración de nicho con cerámica (medida estándar)",
+        "descripcion":"Requisitos para la elaboración de nicho de cerámica",
+        "icon":"sym_fullscreen_portrait",
+        "requisitos":[
+          "Presentar copia de DUI del solicitante",
+          "Presentar copia del título a perpetuidad o documento que compruebe el derecho sobre el espacio en el cementerio",
+          "Permitir la inspección del lugar por parte del personal del cementerio antes de iniciar la construcción",
+          "Presentar solicitud por escrito dirigida al Departamento de Cementerios",
+          "Realizar el pago correspondiente en la municipalidad según la tasa establecida",
+          "Respetar las medidas estándar autorizadas para la construcción del nicho",
+          "Utilizar materiales adecuados y en buen estado para la colocación de la cerámica",
+          " Comprometerse a no dañar nichos, lápidas o construcciones cercanas durante los trabajos",
+          "Mantener orden, limpieza y retiro de escombros al finalizar la construcción"
+        ]
+      },
+      {
+        "titulo":"Permiso para construcción de lápida o jardinería",
+        "descripcion":"Requisitos para construcción de lápida",
+        "icon":"sym_simulation",
+        "requisitos":[
+          "Se requiere llenar un formulario de solicitud, y formato de presupuesto",
+          "Presentar factura de los materiales sellado por el establecimiento",
+          "Copia del DUI del solicitante, y del albañil que realizara la obra",
+          "pago de refrendas actualizadas del espacio"
+        ]
+      },
+      {
+        "titulo":"Permiso de construcción para nicho",
+        "descripcion":"Requisitos para construcción de nicho",
+        "icon":"sym_fullscreen_portrait",
+        "requisitos":[
+          "Se requiere llenar el formulario de solicitud permiso de construccion, con el presupuesto",
+          "Presentar copia del título a perpetuidad o un comprobante de compra del espacio",
+          "Llenar la solicitud de catastro para autorizar la construcción del nicho",
+          "Presentar factura de los materiales sellado por el colector",
+          "Copia del DUI del solicitante, y del albañil que realizara la obra",
+          "Pago de refrendas actualizadas del espacio"
+        ]
+      }
+    ]
+  }
+]
